@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário POST</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container form-container" style="margin-top: 10%;">
+        <h2 class="mb-5 text-center">Envio de Dados (POST)</h2>
+        <form class="" action="/enviar" method="POST">
+            <div class="mb-3">
+                <label class="form-label" for="nome">Nome:</label>
+                <input class="form-control"type="text" id="nome" name="nome" placeholder="Digite seu nome" >
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="email">E-mail:</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="Digite seu e-mail" >
+            </div>
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
