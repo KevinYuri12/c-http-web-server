@@ -1,0 +1,5 @@
+# Executaveis e arquivos intermediarios de compilacao
+*.exe
+*.o
+*.obj
+*.pdb
